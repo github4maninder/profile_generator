@@ -40,10 +40,7 @@ rl.question(questions.q1, (answer) => {
               answers.superPower = answer;
               console.log(`Thank you for your valuable feedback`);
               console.log(answers);
-
-
-            
-    
+              
               rl.close();
             });
           });
